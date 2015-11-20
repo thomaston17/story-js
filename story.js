@@ -1,0 +1,10 @@
+var adjective = prompt('Please type an adjective:');
+var story = '<h2>There once was a ' + adjective;
+var verb = prompt('Please type a verb:');
+story += ' programmer who wanted to use JavaScript to ' + verb;
+var noun = prompt('Please type a noun:');
+story += ' the ' + noun + '.</h2>';
+var count = ' <p>Your sentence contains ' + story.length +' characters.</p>';
+alert('All done! Ready for the message?');
+document.write(story);
+document.write(count);
